@@ -1,0 +1,26 @@
+# Dependências principais
+apache-airflow==2.7.3
+great-expectations==0.15.50
+pandas==2.1.4
+python-dotenv==1.0.0
+
+# Dependências do Airflow
+SQLAlchemy==2.0.25
+Flask==2.3.2
+Werkzeug==2.3.7
+pyarrow==12.0.1
+psycopg2-binary==2.9.9
+
+# Dependências do Great Expectations
+sqlalchemy==1.4.51
+pydantic==1.10.13
+ruamel.yaml==0.17.32
+tqdm==4.66.1
+scipy==1.11.4
+
+# Dependências para geração de dados
+faker==19.13.0
+
+# Dependências para testes (opcional)
+pytest==7.4.3
+pytest-cov==4.1.0
